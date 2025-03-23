@@ -1,0 +1,14 @@
+name: pytorch
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - torchvision
+  - pandas
+  - scikit-learn
+  - matplotlib
